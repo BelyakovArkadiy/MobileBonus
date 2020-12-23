@@ -6,12 +6,10 @@ public class Main {
         if (accountRefill >= 1000) {
             int bonus = accountRefill / 100;
             accountRefill = account + accountRefill + bonus;
-            System.out.println("Your mobile account is credited to " + accountRefill);
 
         } else {
             accountRefill = account + accountRefill;
-            System.out.println("Your mobile account is credited to " + accountRefill);
         }
-
+        System.out.println("Your mobile account is credited to " + accountRefill);
     }
 }
